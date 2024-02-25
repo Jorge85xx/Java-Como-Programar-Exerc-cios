@@ -8,13 +8,13 @@ Eu já havia concluído as questões dos capítulos deste livro quando estava ap
 
 ## Cronograma
 
-Tentarei postar as questões de cada capítulo em um módulo dedicado neste repositório. Pretendo fazer isso regularmente, mas pode variar dependendo da minha disponibilidade e outros compromissos (a faculdade anda exigindo bastante do meu tempo). A meta inicial é postar pelo menos dois exercícios por semana.
+Tentarei postar as questões de cada capítulo em um pacote dedicado neste repositório. Pretendo fazer isso regularmente, mas pode variar dependendo da minha disponibilidade e outros compromissos (a faculdade anda exigindo bastante do meu tempo). A meta inicial é postar pelo menos dois exercícios por semana.
 
 ## Estrutura do Repositório
 
-- Cada capítulo terá seu próprio módulo dentro da pasta `src`.
-- Dentro de cada módulo do capítulo, você encontrará as questões correspondentes.
-- Adicionarei um arquivo README dentro de cada módulo do capítulo, fornecendo uma breve descrição das questões e, se necessário, instruções sobre como executar o código.
+- Cada capítulo terá seu próprio pacote dentro da pasta `src`.
+- Dentro de cada pacote do capítulo, você encontrará as questões correspondentes.
+- Adicionarei um arquivo README dentro de cada pacote do capítulo, fornecendo uma breve descrição das questões e, se necessário, instruções sobre como executar o código.
 
 ## Sobre o Livro
 
@@ -23,6 +23,12 @@ Tentarei postar as questões de cada capítulo em um módulo dedicado neste repo
 ## Advertência sobre o Avanço de Conteúdo
 
 É importante notar que não irei adiantar conteúdo em relação ao que é apresentado no livro. Portanto, evitarei usar recursos ou conceitos que ainda não foram introduzidos até o capítulo correspondente. Por exemplo, não utilizarei exceções antes de serem apresentadas no livro, ou optarei por não utilizar estruturas avançadas como foreach antes do capítulo de programação funcional.
+
+## Advertência sobre os Exercícios
+
+Por favor, note que estarei focando exclusivamente nos exercícios que contêm código. Portanto, não estarei abordando questões conceituais ou teóricas que não envolvam implementação prática. Se você estiver buscando explicações ou soluções para exercícios que não envolvam código, recomendo consultar outras fontes ou o próprio livro "Java: Como Programar". 
+
+
 
 ## Contribuições
 
