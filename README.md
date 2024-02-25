@@ -8,13 +8,13 @@ Eu já havia concluído as questões dos capítulos deste livro quando estava ap
 
 ## Cronograma
 
-Tentarei postar as questões de cada capítulo em um módulo dedicado neste repositório. Pretendo fazer isso regularmente, mas pode variar dependendo da minha disponibilidade e outros compromissos (a faculdade anda exigindo bastante do meu tempo). A meta inicial é postar pelo menos dois exercícios por semana.
+Tentarei postar as questões de cada capítulo em um pacote dedicado neste repositório. Pretendo fazer isso regularmente, mas pode variar dependendo da minha disponibilidade e outros compromissos (a faculdade anda exigindo bastante do meu tempo). A meta inicial é postar pelo menos dois exercícios por semana.
 
 ## Estrutura do Repositório
 
-- Cada capítulo terá seu próprio módulo dentro da pasta `src`.
-- Dentro de cada módulo do capítulo, você encontrará as questões correspondentes.
-- Adicionarei um arquivo README dentro de cada módulo do capítulo, fornecendo uma breve descrição das questões e, se necessário, instruções sobre como executar o código.
+- Cada capítulo terá seu próprio pacote dentro da pasta `src`.
+- Dentro de cada pacote do capítulo, você encontrará as questões correspondentes.
+- Adicionarei um arquivo README dentro de cada pacote do capítulo, fornecendo uma breve descrição das questões e, se necessário, instruções sobre como executar o código.
 
 ## Sobre o Livro
 
