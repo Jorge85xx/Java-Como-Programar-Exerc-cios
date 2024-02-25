@@ -24,6 +24,12 @@ Tentarei postar as questões de cada capítulo em um pacote dedicado neste repos
 
 É importante notar que não irei adiantar conteúdo em relação ao que é apresentado no livro. Portanto, evitarei usar recursos ou conceitos que ainda não foram introduzidos até o capítulo correspondente. Por exemplo, não utilizarei exceções antes de serem apresentadas no livro, ou optarei por não utilizar estruturas avançadas como foreach antes do capítulo de programação funcional.
 
+## Advertência sobre os Exercícios
+
+Por favor, note que estarei focando exclusivamente nos exercícios que contêm código. Portanto, não estarei abordando questões conceituais ou teóricas que não envolvam implementação prática. Se você estiver buscando explicações ou soluções para exercícios que não envolvam código, recomendo consultar outras fontes ou o próprio livro "Java: Como Programar". 
+
+
+
 ## Contribuições
 
 Contribuições, sugestões ou correções são sempre bem-vindas! Se você notar algum erro nas questões ou tiver sugestões para melhorias, sinta-se à vontade para abrir um problema ou enviar uma solicitação de pull.
