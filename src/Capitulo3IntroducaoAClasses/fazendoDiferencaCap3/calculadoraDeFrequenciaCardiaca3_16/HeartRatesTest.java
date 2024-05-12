@@ -41,6 +41,6 @@ public class HeartRatesTest {
         System.out.println("Maximum Heart Rate Range: " + person.maximumHeartRatePerMinute() + " beats per minute");
         System.out.println("Target Heart Rate: " + targetHeartRate[0] + " - " + targetHeartRate[1] + " beats per minute");
 
-
+        scanner.close();
     }
 }

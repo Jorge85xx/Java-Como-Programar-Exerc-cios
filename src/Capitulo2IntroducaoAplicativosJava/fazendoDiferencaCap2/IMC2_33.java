@@ -1,5 +1,6 @@
 package Capitulo2IntroducaoAplicativosJava.fazendoDiferencaCap2;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 //Calculadora de índice de massa corporal)
@@ -11,7 +12,7 @@ import java.util.Scanner;
 public class IMC2_33 {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
         System.out.println("Body Mass Index (BMI) Calculator");
         System.out.println("Please choose the measurement system:");
@@ -28,27 +29,31 @@ public class IMC2_33 {
             System.out.print("Enter height in inches: ");
             int heightInInches = scanner.nextInt();
 
-            bmi = calculateBMI(weightInPounds, heightInInches);
+            bmi = calculateBMIOne(weightInPounds, heightInInches);
         } else if (choice == 2) {
             System.out.print("Enter weight in kilograms: ");
             int weightInKilograms = scanner.nextInt();
             System.out.print("Enter height in meters: ");
-            int heightInMeters = scanner.nextInt();
+            double heightInMeters = scanner.nextDouble();
 
-            bmi = calculateBMI(weightInKilograms, heightInMeters * 100); // Converting meters to centimeters
+            bmi = calculateBMITwo(weightInKilograms, heightInMeters); // Converting meters to centimeters
         } else {
             System.out.println("Invalid option.");
             return;
         }
 
-        System.out.println("Your BMI is: " + bmi);
+        System.out.printf("Your BMI is: %.2f\n", bmi);
         displayBMIStatus(bmi);
 
         scanner.close();
     }
 
-    public static double calculateBMI(int weight, int height) {
+
+    public static double calculateBMIOne(int weight, double height) {
         return (double) weight * 703 / (height * height);
+    }
+    public static double calculateBMITwo(int weight, double height) {
+        return (double) weight / (height * height);
     }
 
     public static void displayBMIStatus(double bmi) {
@@ -57,7 +62,7 @@ public class IMC2_33 {
         System.out.println("Normal: between 18.5 and 24.9");
         System.out.println("Overweight: between 25 and 29.9");
         System.out.println("Obese: 30 or greater");
-
+        System.out.println("---your status is:---");
         if (bmi < 18.5) {
             System.out.println("Status: Underweight");
         } else if (bmi >= 18.5 && bmi <= 24.9) {
